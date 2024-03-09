@@ -13,7 +13,9 @@ function resposta1() {
     document.getElementById('resposta1').innerText = soma;
 }
 
-function resposta2(){
+function resposta2(event){
+    event.preventDefault();
+
     let primeiro = 0;
     let ultimo = 1;
     let fibonacci = 0;
@@ -59,4 +61,22 @@ function resposta3(){
     f.textContent = '19';
     f.value = '19';
     
+}
+
+function resposta4(){
+    let resposta = "Para decobrir qual interruptor acende cada lampada em 2 tentativas, basta ligar apenas um interruptor, e verificar qual lampada ele acende. " + 
+    " Depois, desligue o interruptor, e ligue outro interruptor, e verifique qual lampada el irá acender, com isso ja se tem a informação sobre o interruptor de duas lampadas,  " +
+    " e por consequência, o interruptor que não foi acionado nenhuma vez será o interruptor da lampada quem não foi acesa em nenhum momento."
+
+    document.getElementById('resposta4').innerText = resposta;
+}   
+
+function resposta5(event) {
+    event.preventDefault();
+    let string = document.getElementById('string').value;
+    let invertida = '';
+    for (let i = string.length - 1; i >= 0; i--) {
+        invertida += string[i];
+    }
+    document.getElementById('resposta5').innerText = invertida;
 }
