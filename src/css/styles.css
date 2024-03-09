@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.842);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 0%;
+    position: relative;
+    margin-bottom: 5%;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    text-align:center;
+    padding: 2%;
+    background-image: url(/src/images/target.png);
+    background-size:contain;
+    background-position: 20%;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 5%;
+}
+table {
+    width: 50%;
+    margin-bottom: 5%;
+    border-spacing: 2%;
+}
+
+table td{
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.774);
+    color: black;
+}
+table td a{
+    text-decoration:none;
+    color: black;
+}
