@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="/src/js/app.js"></script>
 </head>
 <body>
     <h2>Questão 5</h2>
@@ -16,6 +17,12 @@
         definida no código;
         
         b) Evite usar funções prontas, como, por exemplo, reverse;</pre>
-        <button>Resposta</button>
+
+        <form action="" method="get" onsubmit="resposta5(event)">
+            <label>Informe uma string:</label>
+            <input type="text" name="string" id="string">
+            <input type="submit"></input>
+        </form> 
+        <p id="resposta5"></p>
 </body>
 </html>
