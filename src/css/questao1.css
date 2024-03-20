@@ -40,12 +40,12 @@ p{
 	width: 50%;
 	margin-left: 10%;
 	background-color: aliceblue;
-	height: 10%;
+	height: max-content;
 	border-radius: 1rem;
 	text-align: center;
 	color: #2d1106;
 	font-size: 1.3rem;
-	padding-top: 2%;
+	padding: 2%;
 }
 
 footer{
@@ -53,8 +53,7 @@ footer{
     align-items: center;
     justify-content: center;
     height: 10%;
-    position:fixed;
-    bottom: 0;
+    position:static;
     width: 100%;
 }
 
@@ -64,4 +63,5 @@ footer a{
 	font-family: Arial, sans-serif;
 	font-style: bold;
 	font-size: 1.3rem;
+	padding: 2%;
 }

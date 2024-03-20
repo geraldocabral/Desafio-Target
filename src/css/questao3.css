@@ -42,7 +42,7 @@ footer{
     align-items: center;
     justify-content: center;
     height: 10%;
-    position:fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
 }
@@ -53,5 +53,6 @@ footer a{
 	font-family: Arial, sans-serif;
 	font-style: bold;
 	font-size: 1.3rem;
+    padding: 2%;
 }
 
